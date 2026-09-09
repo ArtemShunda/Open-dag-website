@@ -1,0 +1,54 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: "Fraunces", serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  font-variation-settings:
+    "SOFT" 0,
+    "WONK" 0;
+}
+header {
+  width: 100%;
+  height: 42vh;
+  background: #1b3a8c;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+h1 {
+  width: 90%;
+  color: white;
+  font-size: 50px;
+}
+h2 {
+  color: lightgray;
+  font-size: 18px;
+  width: 90%;
+  margin-top: 20px;
+  font-weight: 300;
+}
+h3 {
+  padding-top: 6px;
+}
+p {
+  color: rgb(148, 147, 147);
+  padding-top: 6px;
+}
+span {
+  color: rgb(255, 178, 35);
+}
+input {
+  width: 40%;
+  height: 50px;
+  margin-top: 50px;
+  background: #f5c327;
+  position: absolute;
+  margin-right: 200px;
+  margin-top: 300px;
+  border-radius: 10px;
+}
